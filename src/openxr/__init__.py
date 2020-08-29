@@ -17,8 +17,8 @@ from .session import Session
 from .space import Space
 from .swapchain import Swapchain
 from .system import System
-from api import *
-from abi import *
+from .api import *
+from .abi import *
 __all__ = [
     'Action',
     'ActionSet',
